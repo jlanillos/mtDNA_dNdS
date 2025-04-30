@@ -1,0 +1,17 @@
+# Ignore data and results
+data/
+results/
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.log
+
+# Ignore system files
+.DS_Store
+*.swp
+
+# Ignore virtual environments
+venv/
+__pycache__/
