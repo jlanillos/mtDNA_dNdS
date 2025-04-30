@@ -5,6 +5,7 @@ This repository contains scripts to compute the **dN/dS ratio** (non-synonymous 
 The goal of this pipeline is to assess selection pressures acting on mtDNA mutations across cancer samples by combining somatic mutation calls, mitochondrial copy number estimation, and coverage normalization.
 
 The data source is the Hartwig Medical Fountation dataset, which is a set of more than 5000 pan-cancer metastatic tumor samples. This data is stored in Google buckets, that researchers can access upon access request. Since only mtDNA reads were ncessary, the strategy was to extract smaller BAM files containing such data into a personal bucket and download it (ca 1TB). Then, the rest of the analysis (variant calling, coverage, QC) was done in a workstation.
+
 ---
 
 ## 📁 Repository Structure
