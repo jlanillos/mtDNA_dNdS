@@ -1,6 +1,6 @@
 # mtDNA_dNdS
 
-This repository contains scripts to compute the **dN/dS ratio** (non-synonymous to synonymous mutation rate) for **somatic mitochondrial DNA (mtDNA) mutations** using **whole-genome sequencing (WGS)** data from **metastatic tumors**, specifically the Hartwig Medical Foundation dataset.
+This repository contains scripts to compute the **dN/dS ratio** (non-synonymous to synonymous mutation rate) for **somatic mitochondrial DNA (mtDNA) mutations** using **whole-genome sequencing (WGS)** data from **metastatic tumors**.
 
 The goal of this pipeline is to assess selection pressures acting on mtDNA mutations across cancer samples by combining somatic mutation calls, mitochondrial copy number estimation, and coverage normalization.
 
@@ -44,8 +44,3 @@ These scripts extract per-sample mitochondrial chromosome (chrM) coverage using 
 - Python ≥ 3.7  
 - `pysam`, `pandas`, `numpy` for Python scripts  
 - `samtools`, `gcloud` CLI, and `GNU parallel` for shell scripts
-
-Install Python dependencies with:
-
-```bash
-pip install -r requirements.txt
